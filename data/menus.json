@@ -1,0 +1,26 @@
+[
+  {
+    "nama": "Home",
+    "link": "/"
+  },
+  {
+    "nama": "Random",
+    "link": "/random"
+  },
+  {
+    "nama": "Antara",
+    "link": "/t/antara"
+  },
+  {
+    "nama": "CNN",
+    "link": "/t/cnn"
+  },
+  {
+    "nama": "Merdeka",
+    "link": "/t/merdeka"
+  },
+  {
+    "nama": "OkeZone",
+    "link": "/t/okezone"
+  }
+]

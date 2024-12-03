@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita <%= berita.title %> </title>
+  </head>
+  <body>
+    <h1><%= berita.title %></h1>
+    <h3><%= berita.description %></h3>
+    <img src="<%= berita.image %>" width="100" height="100" alt>
+    <section>
+      <% for(let news of berita.posts) { %>
+        <p><%= news.title %></p>
+        <img src="<%= news.thumbnail %>" width="100" height="100" alt="">
+      <% } %>
+    </section>
+  </body>
+</html>
